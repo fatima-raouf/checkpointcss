@@ -1,0 +1,148 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.fl-left  {
+    float: left;
+}
+
+
+.clearfix  {
+    clear: both;
+}
+
+#container1 {
+  text-align: center;
+  padding: 6px;
+  box-shadow: -1px 3px 21px 0px rgba(0,0,0,0.75) inset;
+  background-color: Green;
+}
+
+#container1 img  {
+    width: 45px;
+}
+
+
+
+#container1 .title {
+    width: 80%;
+    font-family: Georgia, “Times New Roman”, Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#container1 .logo {
+    width: 10%;
+}
+
+
+#container2 {
+  text-align: center;
+  box-shadow: 0px 17px 20px -15px rgba(0,0,0,0.75);
+  padding: 20px;
+  background-color: Red;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#container2 a {
+    color: black;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+.left-side,
+.content,
+.right-side {
+    padding: 5px;
+}
+
+.left-side {
+    width: 19%;
+    margin-right: 10px;
+}
+.content {
+    width: 57.85%;
+    background-color: pink;
+    margin-top: 21px;
+    min-height: 70vh;
+}
+
+.content img {
+    width: 45px;
+    margin: 5px;
+    box-shadow : 0px 10px 10px 2px rgba(0, 0, 0, 0.5) ;
+}
+
+.right-side {
+    margin-top: 21px;
+    width: 19%;
+    background-color: grey;
+    border-radius: 10px 0 0 10px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.right-side form label {
+    display: block;
+}
+
+.left-side ul {
+    padding: 0;
+    list-style: none;
+}
+
+.left-side ul li.menu-title {
+    background-color: yellow;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.left-side ul li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+/* .menu {
+  text-align: center;
+  box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.5) 0px 10px 10px 2px
+    rgba(255, 255, 255, 0.5) inset;
+
+  padding: 20px;
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+  margin-top: 20px;
+  text-align: left;
+  padding: 2px;
+  width: 100%;
+  height: 40%;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+#paragraphe {
+  position: absolute;
+  left: 17%;
+  top: 32%;
+  width: 60%;
+  height: 70%;
+  background-color: Pink;
+  border-radius: 10px;
+  padding: 10px;
+  overflow: scroll;
+}
+#log {
+  top: 32%;
+  position: absolute;
+  text-align: left;
+  padding: 2px;
+  width: 20%;
+  height: 40%;
+  left: 80%;
+  font-size: 14px;
+  line-height: 1.5em;
+  background-color: Grey;
+  border-radius: 10px;
+} */
